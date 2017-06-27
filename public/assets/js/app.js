@@ -12,7 +12,18 @@ let popChart = new Chart(myChart, {
                 205000,
                 170000,
                 85000
-            ]
+            ],
+            backgroundColor:[
+                'red',
+                'green',
+                'purple',
+                'blue',
+                'yellow'
+            ],
+            borderWidth: 2,
+            borderColor: 'grey',
+            hoverBorderWidth: 4,
+            hoverBorderColor: 'black'
         }]
     },
     options: {
